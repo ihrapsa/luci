@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: adblock\n"
 "POT-Creation-Date: 2017-10-22 13:00+0300\n"
-"PO-Revision-Date: 2021-10-21 22:36+0000\n"
-"Last-Translator: Artem <Localizer_in_Russian@protonmail.com>\n"
+"PO-Revision-Date: 2022-06-17 08:18+0000\n"
+"Last-Translator: AHOHNMYC <lqwh2h2cwa@protonmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/ru/>\n"
 "Language: ru\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -31,7 +31,7 @@ msgstr "Блокировщик рекламы"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:40
 msgid "Adblock action"
-msgstr "Действие Adblock"
+msgstr "Действие блокировщика рекламы"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:11
 msgid "Add Blacklist Domain"
@@ -59,7 +59,8 @@ msgstr "Дополнительные настройки"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:380
 msgid "Additional trigger delay in seconds before adblock processing begins."
-msgstr "Дополнительная задержка в секундах до начала работы Adblock."
+msgstr ""
+"Дополнительная задержка в секундах до начала работы блокировщика рекламы."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:301
 msgid "Advanced DNS Settings"
@@ -104,8 +105,8 @@ msgid ""
 "Base Temp Directory for all adblock related runtime operations, e.g. "
 "downloading, sorting, merging etc."
 msgstr ""
-"Временная папка для «рабочих» операций Adblock, таких, как загрузки, "
-"сортировки, слияния и т.п."
+"Временная папка для «рабочих» операций блокировщика рекламы, таких, как "
+"загрузки, сортировки, слияния и т.п."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/blacklist.js:15
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:34
@@ -165,10 +166,10 @@ msgid ""
 "those listed in the whitelist. Please note: You can use this restrictive "
 "blocklist e.g. for guest wifi or kidsafe configurations."
 msgstr ""
-"Создает дополнительный блок-список DNS для блокирования доступа ко всем "
-"доменам, кроме перечисленных в белом списке. <br /> <i>Обратите внимание: "
-"этот список можно использовать, например, для гостевых Wi-Fi или "
-"родительских ограничений.</i>"
+"Создает дополнительный чёрный список DNS для блокирования доступа ко всем "
+"доменам, кроме перечисленных в белом списке. Обратите внимание: этот список "
+"можно использовать, например, для гостевых Wi-Fi или родительских "
+"ограничений."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:22
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:57
@@ -179,7 +180,6 @@ msgid "Cancel"
 msgstr "Отмена"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:586
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:601
 msgid "Categories"
 msgstr "Категории"
 
@@ -198,11 +198,10 @@ msgid ""
 "master/net/adblock/files/README.md\" target=\"_blank\" rel=\"noreferrer "
 "noopener\" >check the online documentation</a>"
 msgstr ""
-"Конфигурация Adblock для блокировки рекламных/мошеннических доменов с "
-"помощью DNS. Для получения дополнительной информации, обратитесь к <a "
-"href=\"https://github.com/openwrt/packages/blob/master/net/adblock/files/"
-"README.md\" target=\"_blank\" rel=\"noreferrer noopener\" >онлайн "
-"документации</a>"
+"Конфигурация блокировщика рекламы для блокировки рекламных/мошеннических "
+"доменов с помощью DNS. Для получения дополнительной информации, обратитесь к "
+"<a href=\"https://github.com/openwrt/packages/blob/master/net/adblock/files/"
+"README.md\" target=\"_blank\" rel=\"noreferrer noopener\" >документации</a>"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:206
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:208
@@ -332,6 +331,7 @@ msgid ""
 "Empty the DNS cache before adblock processing starts to reduce the memory "
 "consumption."
 msgstr ""
+"Очистить DNS кэш перед стартом Adblock чтобы уменьшить потребление памяти."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:339
 msgid "Enable SafeSearch"
@@ -378,9 +378,9 @@ msgid ""
 "External domain to check for a successful DNS backend restart. Please note: "
 "To disable this check set this option to 'false'."
 msgstr ""
-"Внешний домен для проверки успешной перезагрузки DNS-сервера. <br /> "
-"<i>Обратите внимание: чтобы отключить эту проверку, установите для этой "
-"опции значение «false».</i>"
+"Внешний домен для проверки успешной перезагрузки DNS-сервера. Обратите "
+"внимание: чтобы отключить эту проверку, установите для этой опции значение "
+"«false»."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:446
 msgid "Fifth instance"
@@ -428,9 +428,9 @@ msgid ""
 "demand. Please note: this needs additional 'tcpdump' or 'tcpdump-mini' "
 "package installation and a full adblock service restart to take effect."
 msgstr ""
-"Сбор информации о трафике DNS через tcpdump и создание отчётов DNS. <br /> "
-"<i>Обратите внимание: для работы этой функции необходим пакет 'tcpdump-mini' "
-"и полная перезагрузка службы Adblock.</i>"
+"Сбор информации о трафике DNS через tcpdump и создание отчётов DNS. Обратите "
+"внимание: для работы этой функции необходим пакет 'tcpdump-mini' и полная "
+"перезагрузка службы блокировщика рекламы."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:299
 msgid "General Settings"
@@ -564,9 +564,9 @@ msgid ""
 "resources from the system. Please note: This change requires a full adblock "
 "service restart to take effect."
 msgstr ""
-"Уменьшить приоритет фоновой обработки Adblock для уменьшения нагрузки на "
-"систему. <br /> <i>Обратите внимание: для работы данной опции требуется "
-"полная перезагрузка службы Adblock.</i>"
+"Уменьшить приоритет фоновой обработки блокировщика рекламы для уменьшения "
+"нагрузки на систему. Обратите внимание: для работы данной опции требуется "
+"полная перезагрузка службы блокировщика рекламы."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:184
 msgid "Refresh"
@@ -753,7 +753,7 @@ msgid "The Refresh Timer has been updated."
 msgstr "Таймер обновления обновлён."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:56
-msgid "The day of the week (opt., values: 1-7 possibly sep. by , or -)"
+msgid "The day of the week (opt., values: 0-6 possibly sep. by , or -)"
 msgstr "День недели (необязательно, значения: 1–7, запятые или дефисы)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:46
@@ -762,7 +762,7 @@ msgstr "Распределение часов (обязательно, знач�
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:51
 msgid "The minutes portion (opt., range: 0-59)"
-msgstr "Распределение минут (обязательно, значения: 0–59)"
+msgstr "Распределение минут (необязательно, значения: 0–59)"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/logread.js:28
 msgid "The syslog output, pre-filtered for adblock related messages only."
@@ -780,10 +780,10 @@ msgid ""
 "<br /> Please note: add only one domain per line. Comments introduced with "
 "'#' are allowed - ip addresses, wildcards and regex are not."
 msgstr ""
-"Это локальный чёрный список блокировки, указанные в котором (суб-)домены "
-"всегда блокируются. <br /> <i>Обратите внимание: добавляйте по одному домену "
-"на строку. Разрешается использование комментариев, начинающихся на '#' — IP-"
-"адреса и регулярные выражения не поддерживаются</i>"
+"Это локальный чёрный список блокировки, указанные в котором (под-)домены "
+"всегда блокируются. <br /> Обратите внимание: добавляйте по одному домену на "
+"строку. Разрешается использование комментариев, начинающихся на '#'. IP-"
+"адреса и регулярные выражения не поддерживаются."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/whitelist.js:23
 msgid ""
@@ -791,10 +791,10 @@ msgid ""
 "<br /> Please note: add only one domain per line. Comments introduced with "
 "'#' are allowed - ip addresses, wildcards and regex are not."
 msgstr ""
-"Это локальный белый список блокировки, указанные в котором (суб-)домены "
-"всегда пропускаются. <br /> <i>Обратите внимание: добавляйте по одному "
-"домену на строку. Разрешается использование комментариев, начинающихся на "
-"'#' — IP-адреса и регулярные выражения не поддерживаются.</i>"
+"Это локальный белый список блокировки, указанные в котором (под-)домены "
+"всегда пропускаются. <br /> Обратите внимание: добавляйте по одному домену "
+"на строку. Разрешается использование комментариев, начинающихся на '#'. IP-"
+"адреса и регулярные выражения не поддерживаются."
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:298
 msgid ""
@@ -839,8 +839,8 @@ msgstr "Задержка запуска"
 msgid "Unable to save changes: %s"
 msgstr "Невозможно сохранить изменения: %s"
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:616
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:632
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:601
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:617
 msgid "Variants"
 msgstr "Варианты"
 

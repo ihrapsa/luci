@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-05-31 01:41+0000\n"
-"Last-Translator: Stephen Maundrell <smaundrell@gmail.com>\n"
+"PO-Revision-Date: 2022-06-05 12:16+0000\n"
+"Last-Translator: viniribeirossa <viniribeirossa@gmail.com>\n"
 "Language-Team: English <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsadblock/en/>\n"
 "Language: en\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:258
 msgid "Action"
@@ -156,16 +156,15 @@ msgstr ""
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:163
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:72
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:586
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:601
 msgid "Categories"
 msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:255
 msgid "Client"
-msgstr ""
+msgstr "Cliente"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/dnsreport.js:207
 msgid "Clients"
@@ -477,7 +476,7 @@ msgstr ""
 #: applications/luci-app-adblock/luasrc/controller/adblock.lua:7
 #: applications/luci-app-adblock/root/usr/share/luci/menu.d/luci-app-adblock.json:19
 msgid "Overview"
-msgstr ""
+msgstr "Visão Geral"
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:536
 msgid "Profile used by 'msmtp' for adblock notification E-Mails."
@@ -695,7 +694,7 @@ msgid "The Refresh Timer has been updated."
 msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:56
-msgid "The day of the week (opt., values: 1-7 possibly sep. by , or -)"
+msgid "The day of the week (opt., values: 0-6 possibly sep. by , or -)"
 msgstr ""
 
 #: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:46
@@ -769,8 +768,8 @@ msgstr ""
 msgid "Unable to save changes: %s"
 msgstr ""
 
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:616
-#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:632
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:601
+#: applications/luci-app-adblock/htdocs/luci-static/resources/view/adblock/overview.js:617
 msgid "Variants"
 msgstr ""
 
